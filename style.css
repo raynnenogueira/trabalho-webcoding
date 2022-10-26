@@ -1,0 +1,114 @@
+body{
+    font-family: 'Arial';
+    font-weight: 400; /* Largura da fonte */
+}
+
+.container{
+    width: 1200px; /* Largura */
+    margin: 0px auto; /* 0px para cima e automatico nas laterais */
+}
+
+.flex{
+    display: flex;
+    flex-direction: row; /* Direção dos box na horizontal */
+}
+
+header{
+    padding: 30px 0px;
+}
+
+header .flex{
+    justify-content: space-between;
+}
+
+nav{
+    background-color: #202020;
+    padding: 20px 0px;
+}
+
+nav .flex{
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.grandao {
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+}
+
+.menores {
+    width: 165px;
+    height: 165px;
+}
+
+.menores .a, .b, .c {
+    border: 1px solid gray;
+}
+
+.direita {
+    text-align: center;
+}
+
+.direita a {
+    padding: 20px 40px;
+    color: white;
+    font-size: 18px;
+    background-color: #F45C05;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.direita .espacamento1 {
+    font-size: 44px;
+    font-weight: bold;    
+    margin-top: 32px;
+    padding: 10px;
+}
+
+.direita .espacamento2 {
+    font-size: 18px;
+}
+
+.direita .espacamento3 {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.direita h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.direita  p {
+    font-size: 22px;
+}
+
+.depoimento {
+    background-color: #F4F2F0;
+    padding: 70px;
+    margin-top: 30px;
+}
+
+.depoimento h2 {
+    font-size: 32px;
+    color: #F45C05;
+}
+
+.depoimento h3 {
+    font-size: 24px;
+}
+
+.depoimento h4 {
+    font-size: 15px;
+}
+
+.depoimento p {
+    font-size: 22px;
+}
